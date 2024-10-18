@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "User/";
+
+message UserInfo{
+    int32 userId=1;
+    string userName=2;
+    string userAddress=3;
+    string userPhoneNumber=4;
+    
+}
